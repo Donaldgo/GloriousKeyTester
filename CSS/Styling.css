@@ -1,3 +1,20 @@
+/*header styling*/
+
 .header {
     text-align: center;
+}
+
+/*Keyboard styling*/
+
+.Keyboard {
+    color:red;
+}
+
+#Keyrow1 {
+    display: flex;
+}
+
+.Key {
+    margin: 0px;
+    padding: 25px
 }
