@@ -21,6 +21,10 @@
     display: flex;
 }
 
+#Keyrow3 {
+    display: flex;
+}
+
 .Key {
     margin: 0px;
     padding: 25px
