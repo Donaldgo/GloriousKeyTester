@@ -17,6 +17,10 @@
     display: flex;
 }
 
+#Keyrow2 {
+    display: flex;
+}
+
 .Key {
     margin: 0px;
     padding: 25px

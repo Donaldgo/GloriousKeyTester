@@ -6,6 +6,7 @@
 
 //Keydown Events
 
+//Keydown Keyrow1
 window.addEventListener("keydown", (event) => {
     if (event.key === 'Tab'){
         keyTabdown()
@@ -56,9 +57,62 @@ window.addEventListener("keydown", (event) => {
     if (event.key === ']') {
         keyRightBracketdown()
     }
-
+    console.log(event)
 });
 
+//Keydown Keyrow2
+window.addEventListener("keydown",(event) => {
+    if (event.key === 'CapsLock') {
+        keyCapsdown()
+    }
+
+    if (event.key === 'a') {
+        keyAdown()
+    }
+
+    if (event.key === 's'){
+        keySdown()
+    }
+
+    if (event.key === 'd') {
+        keyDdown()
+    }
+
+    if (event.key === 'f'){
+        keyFdown() 
+    }
+
+    if (event.key === 'g'){
+        keyGdown()
+    }
+
+    if (event.key === 'h'){
+        keyHdown()
+    }
+
+    if (event.key === 'j'){
+        keyJdown()
+    }
+
+    if(event.key === 'k'){
+        keyKdown()
+    }
+
+    if (event.key === 'l'){
+        keyLdown()
+    }
+
+    if (event.key === ';'){
+        keySemiColondown()
+    }
+
+    if (event.key === 'Quote'){
+        keyQuotedown()
+    }
+
+    if (event.key === 'Enter')
+    keyEnterdown()
+});
 
 
 //Keyup Events
@@ -174,60 +228,112 @@ function keyRightBracketdown(){
     document.getElementById('Right-Bracket').setAttribute('style', 'color: green');
 }
 
+function keyCapsdown(){
+    document.getElementById('Caps').setAttribute('style', 'color: green');
+}
+
+function keyAdown(){
+    document.getElementById('A').setAttribute('style', 'color: green');
+}
+
+function keySdown(){
+    document.getElementById('S').setAttribute('style', 'color: green');
+}
+
+function keyDdown(){
+    document.getElementById('D').setAttribute('style', 'color: green');
+}
+
+function keyFdown(){
+    document.getElementById('F').setAttribute('style', 'color: green');
+}
+
+function keyGdown(){
+    document.getElementById('G').setAttribute('style', 'color: green');
+}
+
+function keyHdown(){
+    document.getElementById('H').setAttribute('style', 'color: green');
+}
+
+function keyJdown(){
+    document.getElementById('J').setAttribute('style', 'color: green');
+}
+
+function keyKdown(){
+    document.getElementById('K').setAttribute('style', 'color: green');
+}
+
+function keyLdown(){
+    document.getElementById('L').setAttribute('style', 'color: green');
+}
+
+function keySemiColondown(){
+    document.getElementById('SemiColon').setAttribute('style', 'color: green');
+}
+
+function keyQuotedown(){
+    document.getElementById('Quote').setAttribute('style', 'color: green');
+}
+
+function keyEnterdown(){
+    document.getElementById('Enter').setAttribute('style', 'color: green');
+}
+
 //Keydown functions end
 
 //Keyup functions begin
 
 function keyTabup(){
-    document.getElementById('Tab').setAttribute('style' , 'color: yellow')
+    document.getElementById('Tab').setAttribute('style', 'color: yellow')
 }
 
 function keyQup(){
-    document.getElementById('Q').setAttribute('style' , 'color: yellow')
+    document.getElementById('Q').setAttribute('style', 'color: yellow')
 }
 
 function keyWup(){
-    document.getElementById('W').setAttribute('style' , 'color: yellow')
+    document.getElementById('W').setAttribute('style', 'color: yellow')
 }
 
 function keyEup(){
-    document.getElementById('E').setAttribute('style' , 'color: yellow')
+    document.getElementById('E').setAttribute('style', 'color: yellow')
 }
 
 function keyRup(){
-    document.getElementById('R').setAttribute('style' , 'color: yellow')
+    document.getElementById('R').setAttribute('style', 'color: yellow')
 }
 
 function keyTup(){
-    document.getElementById('T').setAttribute('style' , 'color: yellow')
+    document.getElementById('T').setAttribute('style', 'color: yellow')
 }
 
 function keyYup(){
-    document.getElementById('Y').setAttribute('style' , 'color: yellow')
+    document.getElementById('Y').setAttribute('style', 'color: yellow')
 }
 
 function keyUup(){
-    document.getElementById('U').setAttribute('style' , 'color: yellow')
+    document.getElementById('U').setAttribute('style', 'color: yellow')
 }
 
 function keyIup(){
-    document.getElementById('I').setAttribute('style' , 'color: yellow')
+    document.getElementById('I').setAttribute('style', 'color: yellow')
 }
 
 function keyOup(){
-    document.getElementById('O').setAttribute('style' , 'color: yellow')
+    document.getElementById('O').setAttribute('style', 'color: yellow')
 }
 
 function keyPup(){
-    document.getElementById('P').setAttribute('style' , 'color: yellow')
+    document.getElementById('P').setAttribute('style', 'color: yellow')
 }
 
 function keyLeftBracketup(){
-    document.getElementById('Left-Bracket').setAttribute('style' , 'color: yellow')
+    document.getElementById('Left-Bracket').setAttribute('style', 'color: yellow')
 }
 
 function keyRightBracketup(){
-    document.getElementById('Right-Bracket').setAttribute('style' , 'color: yellow')
+    document.getElementById('Right-Bracket').setAttribute('style', 'color: yellow')
 }
 
 //Keyup functions end
