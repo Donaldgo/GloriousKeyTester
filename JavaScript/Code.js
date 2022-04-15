@@ -172,53 +172,53 @@ window.addEventListener("keydown" , (event) => {
 
 //Keyup Keyrow1=======================================================================
 window.addEventListener("keyup" , (event) => {
-    if (event.key === 'Tab'){
+    if (event.code === 'Tab'){
         keyTabup()
     }
-    if (event.key === 'q') {
+    if (event.code === 'keyQ') {
         keyQup()
     }
-    if (event.key === 'w') {
+    if (event.code === 'KeyW') {
         keyWup()
     }
 
-    if (event.key === 'e') {
+    if (event.code === 'KeyE') {
         keyEup()
     }
 
-    if (event.key === 'r') {
+    if (event.code === 'KeyR') {
         keyRup()
     }
 
-    if (event.key === 't') {
+    if (event.code === 'KeyR') {
         keyTup()
     }
 
-    if (event.key === 'y') {
+    if (event.code === 'KeyY') {
         keyYup()
     }
 
-    if (event.key === 'u') {
+    if (event.code === 'KeyU') {
         keyUup()
     }
 
-    if (event.key === 'i') {
+    if (event.code === 'KeyI') {
         keyIup()
     }
 
-    if (event.key === 'o') {
+    if (event.code === 'KeyO') {
         keyOup()
     }
 
-    if (event.key === 'p') {
+    if (event.code === 'KeyP') {
         keyPup()
     }
 
-    if (event.key === '[') {
+    if (event.code === 'BracketLeft') {
         keyLeftBracketup()
     }
 
-    if (event.key === ']') {
+    if (event.code === 'BracketRight') {
         keyRightBracketup()
     }
 });
@@ -285,43 +285,43 @@ window.addEventListener('keyup', (event) => {
         keyLeftShiftup()
     }
 
-    if (event.key === 'z'){
+    if (event.code === 'Keyz'){
         keyZup()
     }
 
-    if (event.key === 'x'){
+    if (event.code === 'KeyX'){
         keyXup()
     }
 
-    if (event.key === 'c'){
+    if (event.code === 'KeyC'){
         keyCup()
     }
 
-    if (event.key === 'v'){
+    if (event.code === 'KeyV'){
         keyVup()
     }
 
-    if (event.key === 'b'){
+    if (event.code === 'KeyB'){
         keyBup()
     }
 
-    if (event.key === 'n'){
+    if (event.code === 'KeyN'){
         keyNup()
     }
 
-    if (event.key === 'm'){
+    if (event.code === 'KeyM'){
         keyMup()
     }
 
-    if (event.key === ','){
+    if (event.code === 'Comma'){
         keyLessThanup()
     }
 
-    if (event.key === '.'){
+    if (event.code === 'Period'){
         keyGreaterThanup()
     }
 
-    if (event.key === '/'){
+    if (event.code === 'Slash'){
         keyForwardSlashup()
     }
 
