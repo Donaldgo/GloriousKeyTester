@@ -11,50 +11,50 @@ window.addEventListener("keydown", (event) => {
     if (event.key === 'Tab'){
         keyTabdown()
     }
-    if (event.key === 'q') {
+    if (event.code === 'KeyQ') {
         keyQdown()
     }
-    if (event.key === 'w') {
+    if (event.code === 'KeyW') {
         keyWdown()
     }
 
-    if (event.key === 'e') {
+    if (event.code === 'KeyE') {
         keyEdown()
     }
 
-    if (event.key === 'r') {
+    if (event.code === 'KeyR') {
         keyRdown()
     }
 
-    if (event.key === 't') {
+    if (event.code === 'KeyT') {
         keyTdown()
     }
 
-    if (event.key === 'y') {
+    if (event.code === 'KeyY') {
         keyYdown()
     }
 
-    if (event.key === 'u') {
+    if (event.code === 'KeyU') {
         keyUdown()
     }
 
-    if (event.key === 'i') {
+    if (event.code === 'KeyI') {
         keyIdown()
     }
 
-    if (event.key === 'o') {
+    if (event.code === 'KeyO') {
         keyOdown()
     }
 
-    if (event.key === 'p') {
+    if (event.code === 'KeyP') {
         keyPdown()
     }
 
-    if (event.key === '[') {
+    if (event.code === 'BracketLeft') {
         keyLeftBracketdown()
     }
 
-    if (event.key === ']') {
+    if (event.code === 'BracketRight') {
         keyRightBracketdown()
     }
 });
@@ -65,47 +65,47 @@ window.addEventListener("keydown",(event) => {
         keyCapsdown()
     }
 
-    if (event.key === 'a') {
+    if (event.code === 'KeyA') {
         keyAdown()
     }
 
-    if (event.key === 's'){
+    if (event.code === 'KeyS'){
         keySdown()
     }
 
-    if (event.key === 'd') {
+    if (event.code === 'KeyD') {
         keyDdown()
     }
 
-    if (event.key === 'f'){
+    if (event.code === 'KeyF'){
         keyFdown() 
     }
 
-    if (event.key === 'g'){
+    if (event.code === 'KeyG'){
         keyGdown()
     }
 
-    if (event.key === 'h'){
+    if (event.code === 'KeyH'){
         keyHdown()
     }
 
-    if (event.key === 'j'){
+    if (event.code === 'KeyJ'){
         keyJdown()
     }
 
-    if(event.key === 'k'){
+    if(event.code === 'KeyK'){
         keyKdown()
     }
 
-    if (event.key === 'l'){
+    if (event.code === 'KeyL'){
         keyLdown()
     }
 
-    if (event.key === ';'){
+    if (event.code === 'Semicolon'){
         keySemiColondown()
     }
 
-    if (event.key === "'"){
+    if (event.code === "KeyQuote"){
         keyQuotedown()
     }
 
@@ -121,43 +121,43 @@ window.addEventListener("keydown" , (event) => {
         keyLeftShiftdown()
     }
 
-    if (event.key === 'z'){
+    if (event.code === 'KeyZ'){
         keyZdown()
     }
 
-    if (event.key === 'x'){
+    if (event.code === 'KeyX'){
         keyXdown()
     }
 
-    if (event.key === 'c'){
+    if (event.code === 'KeyC'){
         keyCdown()
     }
 
-    if (event.key === 'v'){
+    if (event.code === 'KeyV'){
         keyVdown()
     }
 
-    if (event.key === 'b'){
+    if (event.code === 'KeyB'){
         keyBdown()
     }
 
-    if (event.key === 'n'){
+    if (event.code === 'KeyN'){
         keyNdown()
     }
 
-    if (event.key === 'm'){
+    if (event.code === 'KeyM'){
         keyMdown()
     }
 
-    if (event.key === ','){
+    if (event.code === 'Comma'){
         keyLessThandown()
     }
 
-    if (event.key === '.'){
+    if (event.code === 'Period'){
         keyGreaterThandown()
     }
 
-    if (event.key === '/'){
+    if (event.code === 'Slash'){
         keyForwardSlashdown()
     }
 
@@ -229,47 +229,47 @@ window.addEventListener('keyup', (event) => {
         keyCapsup()
     }
 
-    if (event.key === 'a'){
+    if (event.code === 'KeyA'){
         keyAup()
     }
 
-    if (event.key === 's'){
+    if (event.code === 'KeyS'){
         keySup()
     }
 
-    if (event.key === 'd'){
+    if (event.code === 'KeyD'){
         keyDup()
     }
 
-    if (event.key === 'f'){
+    if (event.code === 'KeyF'){
         keyFup()
     }
 
-    if (event.key === 'g'){
+    if (event.code === 'KeyG'){
         keyGup()
     }
 
-    if (event.key === 'h'){
+    if (event.code === 'KeyH'){
         keyHup()
     }
 
-    if (event.key === 'j'){
+    if (event.code === 'KeyJ'){
         keyJup()
     }
 
-    if (event.key === 'k'){
+    if (event.code === 'KeyK'){
         keyKup()
     }
 
-    if (event.key === 'l'){
+    if (event.code === 'KeyL'){
         keyLup()
     }
 
-    if (event.key === ';'){
+    if (event.code === 'KeySemicolon'){
         keySemiColonup()
     }
 
-    if (event.key === "'"){
+    if (event.code === "KeyQuotes"){
         keyQuoteup()
     }
 
