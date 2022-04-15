@@ -105,7 +105,7 @@ window.addEventListener("keydown",(event) => {
         keySemiColondown()
     }
 
-    if (event.code === "KeyQuote"){
+    if (event.code === "Quote"){
         keyQuotedown()
     }
 
@@ -175,7 +175,7 @@ window.addEventListener("keyup" , (event) => {
     if (event.code === 'Tab'){
         keyTabup()
     }
-    if (event.code === 'keyQ') {
+    if (event.code === 'KeyQ') {
         keyQup()
     }
     if (event.code === 'KeyW') {
@@ -190,7 +190,7 @@ window.addEventListener("keyup" , (event) => {
         keyRup()
     }
 
-    if (event.code === 'KeyR') {
+    if (event.code === 'KeyT') {
         keyTup()
     }
 
@@ -265,11 +265,11 @@ window.addEventListener('keyup', (event) => {
         keyLup()
     }
 
-    if (event.code === 'KeySemicolon'){
+    if (event.code === 'Semicolon'){
         keySemiColonup()
     }
 
-    if (event.code === "KeyQuotes"){
+    if (event.code === "Quote"){
         keyQuoteup()
     }
 
@@ -285,7 +285,7 @@ window.addEventListener('keyup', (event) => {
         keyLeftShiftup()
     }
 
-    if (event.code === 'Keyz'){
+    if (event.code === 'KeyZ'){
         keyZup()
     }
 
